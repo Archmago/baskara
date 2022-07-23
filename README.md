@@ -1,5 +1,5 @@
-# baskara-c
-Simple console baskara.
+# baskara
+Simple console baskara write in C.
 
 Usage:
 bskr a b c
