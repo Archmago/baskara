@@ -14,9 +14,9 @@ int main(int argc, char* argv[]) {
     float result2 = (-b - sqrt(delta)) / (2 * a);
 
     if(delta >= 0) {
-        printf("\nA: \u001b[32m%i\u001b[0m\nB: \u001b[32m%i\u001b[0m\nC: \u001b[32m%i\u001b[0m\n\nΔ: \u001b[32m%i\u001b[0m\n\nResultado¹: \u001b[31m%.2f\u001b[0m\nResultado²: \u001b[31m%.2f\u001b[0m\n\n", a, b ,c, delta ,result1, result2);
+        printf("A: \u001b[32m%i\u001b[0m\nB: \u001b[32m%i\u001b[0m\nC: \u001b[32m%i\u001b[0m\n\nΔ: \u001b[32m%i\u001b[0m\n\nResultado¹: \u001b[31m%.2f\u001b[0m\nResultado²: \u001b[31m%.2f\u001b[0m\n", a, b ,c, delta ,result1, result2);
     } else {
-        printf("\nA: \u001b[32m%i\u001b[0m\nB: \u001b[32m%i\u001b[0m\nC: \u001b[32m%i\u001b[0m\n\nΔ: \u001b[32m%i\u001b[0m\n\n\u001b[31mSem resultados possiveis, delta negativo!\u001b[0m\n\n", a, b ,c, delta);
+        printf("A: \u001b[32m%i\u001b[0m\nB: \u001b[32m%i\u001b[0m\nC: \u001b[32m%i\u001b[0m\n\nΔ: \u001b[32m%i\u001b[0m\n\n\u001b[31mSem resultados possiveis, delta negativo!\u001b[0m\n", a, b ,c, delta);
     }
 
     return EXIT_SUCCESS;
