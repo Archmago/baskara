@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
     float result2 = (-b - sqrt(delta)) / (2 * a);
 
     if(delta >= 0) {
-        printf("A: %i\nB: %i\nC: %i\n\nΔ: %i\n\nResultado¹: [31m%.2f\nResultado²: %.2f\n", a, b ,c, delta ,result1, result2);
+        printf("A: %i\nB: %i\nC: %i\n\nΔ: %i\n\nResultado¹: %.2f\nResultado²: %.2f\n", a, b ,c, delta ,result1, result2);
     } else {
         printf("A: %i\nB: %i\nC: %i\n\nΔ: %i\n\nSem resultados possiveis, delta negativo!\n", a, b ,c, delta);
     }
