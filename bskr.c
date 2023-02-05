@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
     int a = strtol(argv[1], NULL, 10);
     int b = strtol(argv[2], NULL, 10);
     int c = strtol(argv[3], NULL, 10);
-    int delta = (pow(b, 2)) + (-4 * a * c);
+    int delta = (pow(b, 2)) - (4 * a * c);
     float result1 = (-b + sqrt(delta)) / (2 * a);
     float result2 = (-b - sqrt(delta)) / (2 * a);
 
